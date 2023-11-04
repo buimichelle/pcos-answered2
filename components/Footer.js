@@ -4,7 +4,6 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        <img src="/pcos_logo.png" alt="Netlify Logo" className={styles.logo} />
       </footer>
     </>
   )

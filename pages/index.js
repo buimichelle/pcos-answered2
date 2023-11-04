@@ -4,13 +4,14 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
+
     <div className="container">
-
+      <Header />
       <main>
-        <Header title="we need to talk about pcos" />
+        <h1 className="title">we really need to<br />talk about pcos</h1>
+        <button class="styled-button">OKAY</button>
       </main>
-
-      <Footer />
     </div>
-  )
+  );
 }
+

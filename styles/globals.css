@@ -33,3 +33,47 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+.styled-button {
+  display: inline-block;
+  background-color: #FFB6C1;
+  font-family: Monospace;
+  /* Background color */
+  color: #fff;
+  /* Text color */
+  padding: 10px 20px;
+  /* Padding for button size */
+  border: none;
+  /* Remove button border */
+  border-radius: 5px;
+  /* Add rounded corners */
+  font-size: 30px;
+  /* Font size */
+  cursor: pointer;
+  /* Change cursor to a hand on hover */
+  /* Uppercase text */
+  /* Add a subtle box shadow */
+  transition: background-color 0.3s, transform 0.2s;
+  /* Add smooth transitions for color and hover effect */
+
+  /* Hover effect */
+  &:hover {
+    background-color: #DB7093;
+    /* Change background color on hover */
+    transform: scale(1.05);
+    /* Scale up the button slightly on hover */
+  }
+}
+
+.title {
+  font-size: 75px;
+  text-align: center;
+  font-family: Monospace;
+
+}
+
+.header {
+  font-size: 20px;
+  font-family: Monospace;
+
+}
