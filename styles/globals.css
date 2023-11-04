@@ -69,11 +69,36 @@ code {
   font-size: 75px;
   text-align: center;
   font-family: Monospace;
-
 }
+
 
 .header {
   font-size: 20px;
   font-family: Monospace;
+}
 
+.page-background {
+  background-color: #00CED1;
+}
+
+.header1 {
+  font-size: 60px;
+  font-family: Monospace;
+}
+
+.body {
+  font-size: 18px;
+  text-align: center;
+  font-family: Monospace;
+  padding: 0px 20px 20px 0px;
+}
+
+/* CSS for the split layout */
+.split-layout {
+  display: flex;
+}
+
+.container {
+  flex: 1;
+  padding: 20px;
 }
