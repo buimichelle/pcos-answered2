@@ -26,6 +26,13 @@ code {
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
 }
 
+img {
+  display: 'flex';
+  justify-content: 'center';
+  align-items: 'center';
+  height: '300px';
+}
+
 .container {
   height: 100vh;
   display: flex;
@@ -34,36 +41,41 @@ code {
   align-items: center;
 }
 
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  /* or other values like flex-start, center, etc. to adjust spacing */
+}
+
 .styled-button {
-  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  display: inline-flex;
+  /* Use flexbox to center text */
+  align-items: center;
+  /* Center vertically */
+  justify-content: center;
+  /* Center horizontally */
   background-color: #FFB6C1;
   font-family: Monospace;
-  /* Background color */
   color: #fff;
-  /* Text color */
-  padding: 10px 20px;
-  /* Padding for button size */
+  width: 200px;
+  height: 60px;
   border: none;
-  /* Remove button border */
   border-radius: 5px;
-  /* Add rounded corners */
   font-size: 30px;
-  /* Font size */
   cursor: pointer;
-  /* Change cursor to a hand on hover */
-  /* Uppercase text */
-  /* Add a subtle box shadow */
+  font-weight: bold;
   transition: background-color 0.3s, transform 0.2s;
-  /* Add smooth transitions for color and hover effect */
 
   /* Hover effect */
   &:hover {
     background-color: #DB7093;
-    /* Change background color on hover */
     transform: scale(1.05);
-    /* Scale up the button slightly on hover */
   }
 }
+
+
 
 .title {
   font-size: 75px;
@@ -93,6 +105,15 @@ code {
   padding: 0px 20px 20px 0px;
 }
 
+.disclaimer {
+  font-size: 18px;
+  text-align: center;
+  font-family: Monospace;
+  padding: 0px 20px 20px 0px;
+  font-style: italic;
+  color: gray;
+}
+
 /* CSS for the split layout */
 .split-layout {
   display: flex;
@@ -100,5 +121,50 @@ code {
 
 .container {
   flex: 1;
+  padding: 20px;
+}
+
+.header a {
+  text-decoration: none;
+  /* Remove the underline */
+  color: #000;
+  /* Set the link color */
+}
+
+/* Define styles for the top section */
+.top-section {
+  /* Example background color for the top section */
+  padding: 20px;
+  text-align: center;
+  /* Text color for the top section */
+}
+
+/* Define styles for the bottom section */
+.bottom-section {
+  display: flex;
+  /* Arrange left and right subsections side by side */
+}
+
+/* Define styles for the left subsection */
+.left-subsection {
+  flex: 1;
+  font-family: monospace;
+  text-align: center;
+
+  font-size: 20px;
+  /* Make it take up half of the width of the bottom section */
+
+  /* Example background color for the left subsection */
+  padding: 20px;
+}
+
+/* Define styles for the right subsection */
+.right-subsection {
+  flex: 1;
+  /* Make it take up half of the width of the bottom section */
+  /* Example background color for the right subsection */
+  font-family: monospace;
+  text-align: center;
+  font-size: 20px;
   padding: 20px;
 }

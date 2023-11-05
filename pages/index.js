@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Your Page Title</title>
-        <meta name="description" content="Your page description" />
+        <title>pcos answered</title>
+        <meta name="description" content="spreading awareness about pcos!" />
       </Head>
       <Header />
       <main>
