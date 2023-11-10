@@ -6,39 +6,37 @@ body {
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
-}
-
-img {
-  display: 'flex';
-  justify-content: 'center';
-  align-items: 'center';
-  height: '300px';
-}
 
 .container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  font-family: 'loubag';
+  text-shadow: 0px 0px #b0d8d6;
+  -webkit-text-stroke-color: #b0d8d6;
+  -webkit-text-stroke-width: 0.5px;
+  width: 80%;
+  /* Set a width for the container */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 4;
+  /* Limit to two lines */
+  line-height: 1.5;
+  /* Adjust the line height as needed */
+}
+
+.button {
+  margin-top: 10px;
+  /* Adjust the margin as needed */
 }
 
 .button-container {
@@ -56,21 +54,21 @@ img {
   /* Center vertically */
   justify-content: center;
   /* Center horizontally */
-  background-color: #FFB6C1;
-  font-family: Monospace;
-  color: #fff;
-  width: 200px;
-  height: 60px;
+  background-color: black;
+  font-family: 'loubag';
+  letter-spacing: 2px;
+  color: #ebeded;
+  padding: 10px;
   border: none;
   border-radius: 5px;
-  font-size: 30px;
+  font-size: 25px;
   cursor: pointer;
   font-weight: bold;
   transition: background-color 0.3s, transform 0.2s;
 
   /* Hover effect */
   &:hover {
-    background-color: #DB7093;
+    background-color: #b0d8d6;
     transform: scale(1.05);
   }
 }
@@ -78,7 +76,7 @@ img {
 
 
 .title {
-  font-size: 75px;
+  font-size: 60px;
   text-align: center;
   font-family: Monospace;
 }
@@ -86,11 +84,14 @@ img {
 
 .header {
   font-size: 20px;
-  font-family: Monospace;
+  font-family: 'loubag';
+  display: flex;
+  text-align: left;
+  padding-left: 5px;
 }
 
 .page-background {
-  background-color: #00CED1;
+  background-color: #b0d8d6;
 }
 
 .header1 {
@@ -105,25 +106,6 @@ img {
   padding: 0px 20px 20px 0px;
 }
 
-.disclaimer {
-  font-size: 18px;
-  text-align: center;
-  font-family: Monospace;
-  padding: 0px 20px 20px 0px;
-  font-style: italic;
-  color: gray;
-}
-
-/* CSS for the split layout */
-.split-layout {
-  display: flex;
-}
-
-.container {
-  flex: 1;
-  padding: 20px;
-}
-
 .header a {
   text-decoration: none;
   /* Remove the underline */
@@ -131,40 +113,16 @@ img {
   /* Set the link color */
 }
 
-/* Define styles for the top section */
-.top-section {
-  /* Example background color for the top section */
-  padding: 20px;
-  text-align: center;
-  /* Text color for the top section */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  /* Remove any default spacing */
+  margin: auto;
+  /* Center the image */
 }
 
-/* Define styles for the bottom section */
-.bottom-section {
-  display: flex;
-  /* Arrange left and right subsections side by side */
-}
-
-/* Define styles for the left subsection */
-.left-subsection {
-  flex: 1;
-  font-family: monospace;
-  text-align: center;
-
-  font-size: 20px;
-  /* Make it take up half of the width of the bottom section */
-
-  /* Example background color for the left subsection */
-  padding: 20px;
-}
-
-/* Define styles for the right subsection */
-.right-subsection {
-  flex: 1;
-  /* Make it take up half of the width of the bottom section */
-  /* Example background color for the right subsection */
-  font-family: monospace;
-  text-align: center;
-  font-size: 20px;
-  padding: 20px;
+@font-face {
+  font-family: 'loubag';
+  src: url('/Users/mich/Desktop/gwc/pcos-answered2/public/loubag-6.ttf') format('.ttf');
 }

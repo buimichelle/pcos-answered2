@@ -5,27 +5,29 @@ import Link from 'next/link';
 
 export default function Landing() {
     return (
-        <div className="container">
+        <>
             <Header />
-            <main>
-                <h1 className="header1">Polycystic Ovary Syndrome</h1>
-                <p className="body">PCOS affects approximately 15% of all women in the US, making it one of the common syndromes out there. However, a low percentage of women really understand what PCOS really is - it’s more than being infertile.</p>
-                <div class="button-container">
+            <div class="container">
+                <img src="beige-women.jpg" alt="<a href='https://www.freepik.com/free-photo/lot-diverse-women-tops-pants-are-huddled-together-looking-posing-camera-against-beige-background_26258358.htm#query=women&position=18&from_view=search&track=sph'>Image by lookstudio</a> on Freepik"></img>
+                <div class="centered">
+                    <p>Worldwide, PCOS affects 6% to 10% of women, making it the most common endocrine disorder in women of childbearing age.</p>
                     <Link className="button" href="/symptoms">
-                        <a className="styled-button">symptoms</a>
+                        <a className="styled-button">SYMPTOMS</a>
                     </Link>
                     <Link href="/research">
-                        <a className="styled-button">research</a>
-                    </Link>
-                    <Link href="/statistics">
-                        <a className="styled-button">statistics</a>
+                        <a className="styled-button">RESEARCH</a>
                     </Link>
                     <Link href="/resources">
-                        <a className="styled-button">resources</a>
+                        <a className="styled-button">RESOURCES</a>
+                    </Link>
+                    <Link href="https://www.pcosaa.org/donate" >
+                        <a className="styled-button" target="_blank" rel="noopener noreferrer">DONATE</a>
                     </Link>
                 </div>
-            </main>
-        </div>
+            </div >
+            <Footer />
+        </>
+
     );
 }
 
