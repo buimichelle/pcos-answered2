@@ -28,7 +28,7 @@ body {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 5;
   /* Limit to two lines */
   line-height: 1.5;
   /* Adjust the line height as needed */
