@@ -65,6 +65,7 @@ body {
   cursor: pointer;
   font-weight: bold;
   transition: background-color 0.3s, transform 0.2s;
+  width: 250px;
 
   /* Hover effect */
   &:hover {
@@ -74,6 +75,9 @@ body {
 }
 
 
+.michelle {
+  font-family: 'brittanian';
+}
 
 .title {
   font-size: 60px;
@@ -83,21 +87,19 @@ body {
 
 
 .header {
-  font-size: 20px;
-  font-family: 'loubag';
   display: flex;
-  text-align: left;
-  padding-left: 5px;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: 'loubag';
+  align-items: center;
+  padding: 5px 20px;
 }
+
 
 .page-background {
   background-color: #b0d8d6;
 }
 
-.header1 {
-  font-size: 60px;
-  font-family: Monospace;
-}
 
 .body {
   font-size: 18px;
@@ -123,6 +125,27 @@ img {
 }
 
 @font-face {
+  font-family: 'brittanian';
+  src: url('/Users/mich/Desktop/gwc/pcos-answered2/public/Brittanian.ttf') format('.ttf');
+}
+
+@font-face {
   font-family: 'loubag';
   src: url('/Users/mich/Desktop/gwc/pcos-answered2/public/loubag-6.ttf') format('.ttf');
+}
+
+@font-face {
+  font-family: 'analogist';
+  src: url('/Users/mich/Desktop/gwc/pcos-answered2/public/Analogist.ttf') format('.ttf');
+}
+
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.nav-list li {
+  margin-right: 10px;
 }
