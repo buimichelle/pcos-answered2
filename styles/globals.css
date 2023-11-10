@@ -54,7 +54,7 @@ body {
   /* Center vertically */
   justify-content: center;
   /* Center horizontally */
-  background-color: black;
+  background-color: #008080;
   font-family: 'loubag';
   letter-spacing: 2px;
   color: #ebeded;
@@ -109,7 +109,7 @@ body {
 .header a {
   text-decoration: none;
   /* Remove the underline */
-  color: #000;
+  color: #008080;
   /* Set the link color */
 }
 
