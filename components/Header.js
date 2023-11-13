@@ -15,11 +15,11 @@ export default function Header() {
           </h1>
           <nav>
             <ul className="nav-list">
-              <li>
+              {/* <li>
                 <Link href="/about">
                   <a>About</a>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/symptoms">
                   <a>Symptoms</a>

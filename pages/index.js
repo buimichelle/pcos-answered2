@@ -31,9 +31,9 @@ export default function Home() {
         <div className="centered">
           <h2 className="title">Worldwide, PCOS affects 6% to 10% of women, making it the most common endocrine disorder in women of childbearing age. Click the buttons to learn more!</h2>
 
-          <Link href="/about">
+          {/* <Link href="/about">
             <a className="styled-button">ABOUT</a>
-          </Link>
+          </Link> */}
           <Link className="button" href="/symptoms">
             <a className="styled-button">SYMPTOMS</a>
           </Link>
