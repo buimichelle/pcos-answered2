@@ -3,6 +3,9 @@ import Link from 'next/link';
 export default function Header() {
   return (
     <div>
+      <head>
+
+      </head>
       <body>
         <div className="header">
           <h1>

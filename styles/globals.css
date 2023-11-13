@@ -7,7 +7,69 @@ body {
 }
 
 
-.container {
+
+.sectionTeal {
+  background-color: #008080;
+  padding: 100px;
+  /* Add some padding to the section for better visibility */
+  color: white;
+  /* Set text color to white for better contrast */
+}
+
+.sectionEmpty {
+  padding: 30px;
+  /* Add some padding to the section for better visibility */
+  /* Set text color to white for better contrast */
+}
+
+.seperator {
+  padding: 20px;
+}
+
+h2 {
+  font-family: 'loubag';
+}
+
+
+p {
+  font-family: 'Optima', sans-serif;
+  font-size: 16px;
+}
+
+.nav-list li {
+  font-family: 'Optima', sans-serif;
+  font-size: 20px;
+}
+
+tr[data-toggle="collapse"]:hover {
+  cursor: pointer;
+}
+
+li {
+  font-family: 'Optima', sans-serif;
+  font-size: 16px;
+}
+
+th {
+  font-family: 'Optima', sans-serif;
+  font-size: 25px;
+}
+
+td {
+  font-family: 'Optima', sans-serif;
+  font-size: 16px;
+}
+
+/* body p {
+  font-family: 'Optima', sans-serif;
+  font-size: 16px;
+} */
+
+.image {
+  width: 550px;
+}
+
+.container_home {
   position: relative;
   text-align: center;
   color: white;
@@ -28,11 +90,12 @@ body {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 6;
   /* Limit to two lines */
-  line-height: 1.5;
+  line-height: 2;
   /* Adjust the line height as needed */
 }
+
 
 .button {
   margin-top: 10px;
@@ -82,9 +145,16 @@ body {
 .title {
   font-size: 60px;
   text-align: center;
-  font-family: Monospace;
+  font-family: "Loubag";
 }
 
+
+
+.disclaimer {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Optima', sans-serif;
+}
 
 .header {
   display: flex;
@@ -93,7 +163,21 @@ body {
   font-family: 'loubag';
   align-items: center;
   padding: 5px 20px;
+  maxWidth: 1200px;
+  margin: 0 auto;
 }
+
+.headerHome {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: 'loubag';
+  align-items: center;
+  padding: 10px 200px;
+  maxWidth: 1200px;
+  margin: 0 auto;
+}
+
 
 
 .page-background {
@@ -104,11 +188,18 @@ body {
 .body {
   font-size: 18px;
   text-align: center;
-  font-family: Monospace;
+  font-family: 'Optima', sans-serif;
   padding: 0px 20px 20px 0px;
 }
 
 .header a {
+  text-decoration: none;
+  /* Remove the underline */
+  color: #008080;
+  /* Set the link color */
+}
+
+.headerHome a {
   text-decoration: none;
   /* Remove the underline */
   color: #008080;
