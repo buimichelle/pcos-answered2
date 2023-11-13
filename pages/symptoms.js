@@ -35,18 +35,16 @@ export default function Symptoms() {
                         <h2>How does doctors diagnose?</h2>
                         <p>Doctors based PCOS diagnosis off three criteria. Patients would need 2/3 out of this list:</p>
                         <ul>
-                            <li>Irregular periods</li>
-                            <li>Too much androgen</li>
-                            <li>Polycystic ovaries</li>
+                            <li>Irregular periods (reproductive features (oligo-amenorrhoea and sub-fertility))</li>
+                            <li>Too much androgen (hyperandrogenic features)</li>
+                            <li>Polycystic ovaries (polycystic ovarian morphology)</li>
                         </ul>
-                        <p>Quick Notes:
-                            Often times, when people with PCOS experience very heavy flow when on period and have no sign of cysts on their ovaries.</p>
                         <br></br>
                         <p>Doctors will perform a more extensive evaluation to accurately determine it. If you are worried
                             about your missing periods, having trouble getting pregnant, or have excess signs of too much androgens (acne or hair loss), please see a health specialist. They will guide you!
                         </p>
                         <br></br>
-                        <p>Doctors perform a physical exam, most likely including a pelvic exam. The exam checks the health of your reproductive organs both inside and outside!</p>
+                        <p>Doctors perform a physical exam, most likely including a pelvic exam, blood test, and ultrasound. The exam checks the health of your reproductive organs both inside and outside!</p>
 
 
                     </div>
@@ -59,7 +57,10 @@ export default function Symptoms() {
 
                 <section className="seperator"> </section>
                 <h2>Signs</h2>
-                <p>These are the signs of PCOS, but does not determine the actual diagnosis. Please meet with a specialist. Click on each to learn more</p>
+                <p>These are the signs of PCOS, but does not determine the actual diagnosis.
+                    Some women report to not have signs and only find out that they have PCOS when they are
+                    having trouble getting pregnant or gaining weight without any real reason.
+                    Please meet with a specialist. Click on each to learn more</p>
                 <table class="table">
                     <tbody>
                         <tr data-toggle="collapse" data-target="#collapseIrregularPeriods">
@@ -67,7 +68,20 @@ export default function Symptoms() {
                         </tr>
                         <tr id="collapseIrregularPeriods" class="collapse">
                             <td>
-                                Irregular periods may include...
+                                An regular period is a periods that have an average gap of around 28 days (a month). An irregular period
+                                has a gap that is between less than 21 days or more than 35 days. If your period show up montly around the same time, that means
+                                it is regular. Else, it is consider irregular period.
+                                <br></br>
+                                <br></br>
+                                Keep it mind that it is an average span, not a one time scenario. There are external factors that contribute to missing a period.
+                                <br></br>
+                                <br></br>
+                                Examples of irregular periods are having period bimonthly, trimonthly, or missing a whole year.
+                                <br></br>
+                                <br></br>
+                                Most women with PCOS who have their period reports having a very heavy flow as compared to women without PCOS.
+                                However, its more likely for your periods to be irregular when they first
+                                start during puberty, and when you're nearing menopause.
                             </td>
                         </tr>
 
@@ -76,7 +90,9 @@ export default function Symptoms() {
                         </tr>
                         <tr id="collapseAcne" class="collapse">
                             <td>
-                                Irregular periods may include...
+                                Everyone goes through acne at some point in their life. However that does not mean everyone have PCOS. Women with PCOS have worse condition of acne
+                                then the average population. This is due to the excess amount of androgens. When having high amount of androgens, it increases the sebum (oil) production of the skin, which can lead to worsening acne.
+                                The excess amount can also lead to excessive facial hair (on female).
                             </td>
                         </tr>
 
@@ -85,7 +101,9 @@ export default function Symptoms() {
                         </tr>
                         <tr id="collapseObesity" class="collapse">
                             <td>
-                                Irregular periods may include...
+                                According to some studies, 80% of all US women with PCOS are reported to have obesity or be overweight.
+                                However, the real correlation between obesity and PCOS are not well researched, but many have infer that it has to deal with the high insulin levels and hormonal imbalances.
+                                Maintaining weight is also very difficult.
                             </td>
                         </tr>
 
@@ -94,7 +112,9 @@ export default function Symptoms() {
                         </tr>
                         <tr id="collapseSkin" class="collapse">
                             <td>
-                                Irregular periods may include...
+                                Because of the high insulin levels and hormonal imbalances presented in women with PCOS, they often get dark, thick, and velvety patches patches on their skin. It usually forms
+                                on the back of the neck (or encircle the neck) and sometimes the underarm area. A word for the patches is called acanthosis nigricans. The patches are not exclusive
+                                to only women with PCOS, but a majority of women do have this.
                             </td>
                         </tr>
 
@@ -103,7 +123,10 @@ export default function Symptoms() {
                         </tr>
                         <tr id="collapseCyst" class="collapse">
                             <td>
-                                Irregular periods may include...
+                                Many people with PCOS have ovaries that appear larger or with many follicles (egg sac cysts) on ultrasound. An example of how it looks like is shown above.
+                                When performing an ultrasound or an exam, doctors look into your ovaries to see if there any cysts. If there are, there a high chance that you might have PCOS.
+                                However, some women reported to not have any cyst.
+                                The cyst often comes from the lack of enough hormones to ovulate (reason for irrregular periods) and causes the ovaries to have cyst. The cyst helps increase the extra androgens.
                             </td>
                         </tr>
 
@@ -112,7 +135,8 @@ export default function Symptoms() {
                         </tr>
                         <tr id="collapseSkinTag" class="collapse">
                             <td>
-                                Irregular periods may include...
+                                Skin tags are excessive skin that grows out of your skin. They are often found in armpits.
+                                Once again, this is because of hormonal imbalances.
                             </td>
                         </tr>
 
@@ -121,16 +145,22 @@ export default function Symptoms() {
                         </tr>
                         <tr id="collapseHair" class="collapse">
                             <td>
-                                Irregular periods may include...
+                                A very well-known fact is that many women with PCOS show male-pattern baldness or thinning hair. This is because of the excessive androgen as well as high level of testosterone.
+                                The baldness or thinning of hair is called androgenic alopecia. The baldness starts around their temples or frontal regions.
+
                             </td>
                         </tr>
-
                         <tr data-toggle="collapse" data-target="#collapseInfertility">
                             <th>Infertility</th>
                         </tr>
                         <tr id="collapseInfertility" class="collapse">
                             <td>
-                                Irregular periods may include...
+                                Everyone knows that having irregular period is linked to infertility. This is due to the lack of regularly ovaluating or lack of ovaluating in general.
+                                Ovaluation releases the eggs (which helps get someone pregnant) and when the eggs are never release, the chances of getting pregnant are extremely low.
+                                <br></br>
+                                <br></br>
+                                PCOS is the leading cause of infertility. However, that does not mean that women with PCOS can not get pregnant at all. It means that they will have a much more difficult
+                                time getting pregnant than a women without PCOS. In today's world, there are many tools to aid fertility. Please reach to a specialist about this.
                             </td>
                         </tr>
 
@@ -139,25 +169,30 @@ export default function Symptoms() {
                 <section className="seperator"> </section>
 
                 <h2>Treatment</h2>
-                <p>If you do plan to become pregnant, your treatment may include:
+                <p>There are many treatments are there, these are any a few:</p>
 
-                    A change in diet and activity. A healthy diet and more physical activity can help you lose weight and reduce your symptoms. They can also help your body use insulin more efficiently, lower blood glucose levels, and may help you ovulate.
+                <ul>
+                    <li><h5>Birth Control Pills</h5> The pills can help regulate periods and fix hormonal imbalances, lower testosterone levels, and reduce the amount of acne</li>
+                    <li><h5>Medications to block androgens</h5> It helps with acne, facial hair, and balding.</li>
+                    <li><h5>Topical (skin) creams and antibiotics</h5> It helps with acne, dark patches, and skin tags.</li>
+                    <li><h5>Lifestyle Changes</h5>It is recommended women with PCOS should do minimal excerises or a new diet to maintain weight or have a weight loss.</li>
+                </ul>
+                <section className="seperator"></section>
 
-                    Medications to cause ovulation. Medications can help the ovaries to release eggs normally. These medications also have certain risks. They can increase the chance for a multiple birth (twins or more). And they can cause ovarian hyperstimulation. This is when the ovaries release too many hormones. It can cause symptoms such as abdominal bloating and pelvic pain.
+                <h2>Risks</h2>
+                <p>Having PCOS untreated could lead to many risks that could harm you. These are only a few risks to keep in mind:</p>
+                <ul>
+                    <li><h5>Diabetes</h5></li>
+                    <li><h5>High Blood Pressure</h5></li>
+                    <li><h5>Sleep Disorders (like Apnea)</h5></li>
+                    <li><h5>Depression & Anxiety</h5></li>
+                    <li><h5>Abnormal bleeding from the uterus</h5></li>
+                    <li><h5>Infertility</h5></li>
+                    <li><h5>High Cholesterol</h5></li>
+                </ul>
 
-                </p>
-                <p>
-                    If you do not plan to become pregnant, your treatment may include:
 
-                    Birth control pills. These help to control menstrual cycles, lower androgen levels, and reduce acne.
-
-                    Diabetes medication. This is often used to lower insulin resistance in PCOS. It may also help reduce androgen levels, slow hair growth, and help you ovulate more regularly.
-
-                    A change in diet and activity. A healthy diet and more physical activity can help you lose weight and reduce your symptoms. They can also help your body use insulin more efficiently, lower blood glucose levels, and may help you ovulate.
-
-                    Medications to treat other symptoms. Some medications can help reduce hair growth or acne.
-
-                </p>
+                <section className="seperator"></section>
 
 
             </body >

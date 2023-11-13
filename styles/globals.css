@@ -30,6 +30,14 @@ h2 {
   font-family: 'loubag';
 }
 
+h4 {
+  font-family: 'loubag';
+}
+
+h5 {
+  font-family: 'Optima', sans-serif;
+  font-size: 20px;
+}
 
 p {
   font-family: 'Optima', sans-serif;
@@ -90,7 +98,7 @@ td {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  -webkit-line-clamp: 6;
+  -webkit-line-clamp: 10;
   /* Limit to two lines */
   line-height: 2;
   /* Adjust the line height as needed */
