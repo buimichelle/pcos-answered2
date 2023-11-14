@@ -207,11 +207,24 @@ td {
   /* Set the link color */
 }
 
+
+
 .headerHome a {
   text-decoration: none;
   /* Remove the underline */
   color: #008080;
   /* Set the link color */
+}
+
+.hellolink {
+  text-decoration: none;
+  /* Remove the underline */
+  color: #008080;
+
+  font-family: "Optima", sans-serif;
+  font-size: 16px;
+  /* Set the link color */
+
 }
 
 img {

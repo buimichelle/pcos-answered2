@@ -8,7 +8,7 @@ export default function Footer() {
         Made by Michelle Bui<span className={styles.separator}> | </span>
         Girls Who Code x RTX Leadership Academy Fall 2023<span className={styles.separator}> | </span>
         <Link href="/sources">
-          <a>Link To Sources (Research, Pictures, Fonts)</a>
+          <a className="hellolink">Link To Sources (Research, Pictures, Fonts)</a>
         </Link>
         <br />
         DISCLAIMER: DO NOT USE THIS WEBSITE AS A DIAGNOISIS. PLEASE SEE YOUR PRIMARY HEALTH PROVIDER.

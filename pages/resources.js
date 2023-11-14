@@ -18,6 +18,44 @@ export default function Resources() {
 
             </Head>
             <Header />
+            <section className="sectionTeal">
+                <h1 className="title">Resources for Orange County, California</h1>
+            </section>
+            <body class="container">
+                <section className="seperator"></section>
+                <p>Your OBGYN provider should offer you the most excellent service regarding PCOS However, if you do not have one, here are some other providers in the region and other organization supporting PCOS!</p>
+                <section class="seperator"></section>
+                <h2>PCOS Awareness Association</h2>
+                <Link href="https://www.pcosaa.org/" >
+                    <a className="hellolink" target="_blank" rel="noopener noreferrer">Pledge Teal Here</a>
+                </Link>
+                <h2>Broad Medical Group with Dr. Broad</h2>
+                <Link href="https://obgyn-newportbeach.com/polycystic-ovarian-syndrome-pcos-specialist-in-orange-county/" >
+                    <a className="hellolink" target="_blank" rel="noopener noreferrer">Check them out here!</a>
+                </Link>
+                <p>HOAG-affilated OBGYN in Newport Beach Area.</p>
+                <p>According to their website: "Our lead physician, Dr. Broad is board-certified, highly experienced, and above all empathetic.
+
+                    She can help you make crucial lifestyle changes to your diet and exercise plan as a way to relieve PCOS symptoms. For instance, she can help walk you through the specific types of food items – e.g., peaches, chickpeas, maca root powder – you need to eat as a lifestyle intervention for managing polycystic ovarian syndrome.
+
+                    If necessary, Dr. Broad can prescribe medication such as Letrozole and Clomid® for ovulation based on your conception preferences. In addition, she may recommend medication for insulin sensitization based on your unique symptoms and test results."</p>
+                <p>Address: 1640 Newport Blvd.
+                    Suite #300
+                    Eastside Costa Mesa
+                    CA 92627
+                    <br></br>Phone Number:  949-720-9848
+                </p>
+                <h2>Integrative Medical Group of Irvine with Dr. Felice Gersh</h2>
+                <Link href="https://integrativemgi.com/services/pcos-womens-clinic/" >
+                    <a className="hellolink" target="_blank" rel="noopener noreferrer">Check them out here!</a>
+                </Link>
+
+
+                <section className="seperator"></section>
+
+            </body >
+
+            <Footer></Footer>
         </>
 
 
