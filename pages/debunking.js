@@ -63,7 +63,7 @@ export default function Symptoms() {
 
             <div className="center-container">
                 <section className="body">
-                    <h2>Click the button to get a myth and why is it WRONG!</h2>
+                    <h2>Click the button to get a myth</h2>
                     {/* Apply CSS style to center the blockquote */}
                     <blockquote className="center-blockquote">{currentQuote}</blockquote>
                     {/* Attach the handleButtonClick function to the button's onClick event */}

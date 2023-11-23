@@ -12,6 +12,8 @@ export default function Footer() {
         </Link>
         <br />
         DISCLAIMER: DO NOT USE THIS WEBSITE AS A DIAGNOISIS. PLEASE SEE YOUR PRIMARY HEALTH PROVIDER.
+        <br></br>
+        NEED TO TALK TO SOMEONE OR FIX ANY INCORRECT INFORMATION: EMAIL ME <a className="hellolink" href="mailto:michellebui3402@gmail.com">HERE</a>
       </p>
     </footer>
   );
