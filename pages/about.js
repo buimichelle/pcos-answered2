@@ -17,11 +17,7 @@ export default function Landing() {
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
             </Head>
             <Header />
-            <div class="container-sm">100% wide until small breakpoint</div>
-            <div class="container-md">100% wide until medium breakpoint</div>
-            <div class="container-lg">100% wide until large breakpoint</div>
-            <div class="container-xl">100% wide until extra large breakpoint</div>
-            <div class="container-xxl">100% wide until extra extra large breakpoint</div>
+           
         </>
     );
 }

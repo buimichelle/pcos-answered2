@@ -30,6 +30,10 @@ h2 {
   font-family: 'loubag';
 }
 
+h3 {
+  font-family: 'loubag';
+}
+
 h4 {
   font-family: 'loubag';
 }
@@ -117,6 +121,35 @@ td {
 }
 
 .styled-button {
+  margin: 10px;
+  text-decoration: none;
+  display: inline-flex;
+  /* Use flexbox to center text */
+  align-items: center;
+  /* Center vertically */
+  justify-content: center;
+  /* Center horizontally */
+  background-color: #008080;
+  font-family: 'loubag';
+  letter-spacing: 2px;
+  color: #ebeded;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+  width: 250px;
+
+  /* Hover effect */
+  &:hover {
+    background-color: #b0d8d6;
+    transform: scale(1.05);
+  }
+}
+
+.myth-button {
   margin: 10px;
   text-decoration: none;
   display: inline-flex;
@@ -260,4 +293,23 @@ img {
 
 .nav-list li {
   margin-right: 10px;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background-color: white;
+  /* Set the height to 100% of the viewport height */
+}
+
+.center-blockquote {
+  /* Set a maximum width for the blockquote */
+  margin: 0;
+  /* Remove default blockquote margins */
+  padding: 20px;
+  border-left: 5px solid teal;
+  background-color: #f0f0f0;
+  font-style: italic;
 }

@@ -19,17 +19,17 @@ export default function Resources() {
             </Head>
             <Header />
             <section className="sectionTeal">
-                <h1 className="title">Resources for Orange County, California</h1>
+                <h1 className="title">Resources</h1>
             </section>
             <body class="container">
                 <section className="seperator"></section>
+                <h2>Orange County Resources</h2>
                 <p>Your OBGYN provider should offer you the most excellent service regarding PCOS However, if you do not have one, here are some other providers in the region and other organization supporting PCOS!</p>
-                <section class="seperator"></section>
-                <h2>PCOS Awareness Association</h2>
+                <h3>PCOS Awareness Association</h3>
                 <Link href="https://www.pcosaa.org/" >
                     <a className="hellolink" target="_blank" rel="noopener noreferrer">Pledge Teal Here</a>
                 </Link>
-                <h2>Broad Medical Group with Dr. Broad</h2>
+                <h3>Broad Medical Group with Dr. Broad</h3>
                 <Link href="https://obgyn-newportbeach.com/polycystic-ovarian-syndrome-pcos-specialist-in-orange-county/" >
                     <a className="hellolink" target="_blank" rel="noopener noreferrer">Check them out here!</a>
                 </Link>
@@ -45,14 +45,23 @@ export default function Resources() {
                     CA 92627
                     <br></br>Phone Number:  949-720-9848
                 </p>
-                <h2>Integrative Medical Group of Irvine with Dr. Felice Gersh</h2>
+                <h3>Integrative Medical Group of Irvine with Dr. Felice Gersh</h3>
                 <Link href="https://integrativemgi.com/services/pcos-womens-clinic/" >
                     <a className="hellolink" target="_blank" rel="noopener noreferrer">Check them out here!</a>
                 </Link>
-
-
+                <p>Here is what Dr. Felice Gersh says about her approach: "As Medical Director
+                    of the Integrative Medical Group of Irvine, I focus on understanding women’s
+                    innate physical and emotional make-up. Through my research and
+                    practical experience, I have come to understand that women have internal,
+                    natural rhythms that are absolutely essential to female health.
+                    These rhythms are controlled by hormones, particularly estrogen,
+                    and may be kept in balance through both conventional and holistic treatments."</p>
+                <p>Address:  4968 Booth Cir Suite 101, Irvine, CA 92604
+                    <br></br>Phone Number:  949-753-7475
+                </p>
                 <section className="seperator"></section>
-
+                <h2>Want to learn more?</h2>
+                <p>PCOS-Answered is still in the works! Please check out these other resources and/or check out the sources page (found in the footer) to read more!</p>
             </body >
 
             <Footer></Footer>

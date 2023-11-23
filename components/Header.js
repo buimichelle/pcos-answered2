@@ -31,6 +31,11 @@ export default function Header() {
                 </Link>
               </li>
               <li>
+                <Link href="/debunking">
+                  <a>Myths</a>
+                </Link>
+              </li>
+              <li>
                 <Link href="https://www.pcosaa.org/donate" >
                   <a target="_blank" rel="noopener noreferrer">Donate</a>
                 </Link>
